@@ -1,0 +1,112 @@
+server.js`: Sets up the Node.js server using Express, provides endpoints for serving the HTML page and handling calculation requests. 
+- `public/index.html`: Contains the HTML and JavaScript for the user interface, allowing users to input numbers and select operations. 
+ 
+## Features 
+ 
+- Users can input two numbers and select either addition or subtraction from a dropdown menu. 
+- The application performs the selected arithmetic operation and displays the result on the same page. 
+- Input validation ensures that inputs are numbers and that the operation is valid. 
+- Error messages are displayed for invalid inputs or operations. 
+ 
+## Getting started 
+ 
+### Requirements 
+ 
+To run this project, you need to have Node.js installed on your computer. Additionally, the following packages are required: 
+- Express: A web application framework for Node.js 
+- Body-parser: Middleware to parse incoming request bodies 
+ 
+### Quickstart 
+ 
+1. **Install Node.js**: Ensure Node.js is installed on your machine. You can download it from [Node.js official website](https://nodejs.org/). 
+ 
+2. **Install Express**: Open a terminal and run: 
+   ```bash 
+   npm install express 
+   ``` 
+ 
+3. **Install Body-parser**: Open a terminal and run: 
+   ```bash 
+   npm install body-parser 
+   ``` 
+ 
+4. **Run the server**: Navigate to the project directory and start the server by executing: 
+   ```bash 
+   node server.js 
+   ``` 
+ 
+5. **Access the application**: Open a web browser and go to `http://localhost:3000
+################################################################################
+server.js`: The main server file that initializes the Express application, sets up routes, and handles arithmetic operations. 
+- `public/index.html`: The frontend HTML file that provides the user interface for the calculator. 
+ 
+## Features 
+ 
+- Perform basic arithmetic operations: addition, subtraction, and multiplication. 
+- User-friendly interface for inputting numbers and selecting operations. 
+- Real-time result display upon calculation. 
+- Error handling for invalid inputs and operations. 
+ 
+## Getting Started 
+ 
+### Requirements 
+ 
+To run the CalcAppNodeRestApi project, you need to have the following installed on your computer: 
+ 
+- [Node.js](https://nodejs.org/): Ensure Node.js is installed to run the server application. 
+ 
+### Quickstart 
+ 
+1. **Clone the repository**: Clone the project repository to your local machine. 
+ 
+2. **Install dependencies**: Navigate to the project directory and install the required packages using the following commands: 
+   ```bash 
+   npm install express 
+   npm install body-parser 
+   ``` 
+ 
+3. **Run the server**: Start the server by executing the following command in the project directory: 
+   ```bash 
+   node server.js 
+   ``` 
+ 
+4. **Access the application**: Open a web browser and go to `http://localhost:3000
+################################################################################
+server.js`: The main server file that sets up the Express server, handles routing, and processes calculation requests. 
+- `public/index.html`: The HTML file providing the user interface for the calculator, including form inputs and JavaScript to interact with the API. 
+ 
+## Features 
+ 
+- Perform basic arithmetic operations: addition, subtraction, and multiplication. 
+- User-friendly interface with input fields for numbers and a dropdown menu for selecting operations. 
+- Real-time calculation results displayed on the same page. 
+ 
+## Getting started 
+ 
+### Requirements 
+ 
+To run this project, ensure you have the following installed on your computer: 
+- Node.js (version 12.x or higher) 
+- npm (Node Package Manager) 
+ 
+### Quickstart 
+ 
+1. **Clone the repository**: 
+   ```bash 
+   git clone <repository-url> 
+   cd CalcAppNodeRestApi 
+   ``` 
+ 
+2. **Install dependencies**: 
+   ```bash 
+   npm install express 
+   npm install body-parser 
+   ``` 
+ 
+3. **Run the server**: 
+   ```bash 
+   node server.js 
+   ``` 
+ 
+4. **Access the application**: 
+   Open your web browser and navigate to `http://localhost:3000
